@@ -37,6 +37,8 @@ public class Elephant extends Actor
             
             MyWorld world = (MyWorld) getWorld();
             world.spawnApple();
+            
+            world.increaseScore();
         }
     }
 }
